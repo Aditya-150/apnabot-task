@@ -1,13 +1,10 @@
 export const Testimonies = () => {
   return (
     <section className="mt-40">
-      <div
-        className="text-gray-600 dark:text-gray-300 pt-8 dark:bg-gray-900"
-        id="testimonies"
-      >
+      <div className="text-gray-600 pt-8" id="testimonies">
         <div className="max-w-7xl mx-auto">
           <div className="mb-10 space-y-4">
-            <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+            <h2 className="text-center text-2xl font-bold text-gray-800 md:text-4xl">
               See What&nbsp;
               <span className="bg-gradient-to-b from-[#FF72E1] to-[#F54C7A] inline-block text-transparent bg-clip-text">
                 People
@@ -17,7 +14,7 @@ export const Testimonies = () => {
           </div>
 
           <div className="md:columns-2 lg:columns-3 gap-8 space-y-8">
-            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white shadow-2xl shadow-gray-600/10">
               <div className="flex gap-4">
                 <img
                   alt="user avatar"
@@ -28,12 +25,10 @@ export const Testimonies = () => {
                   width="400"
                 />
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+                  <h6 className="text-lg font-medium text-gray-700">
                     Daniel Dee
                   </h6>
-                  <p className="text-sm text-gray-500 dark:text-gray-300">
-                    Mobile dev
-                  </p>
+                  <p className="text-sm text-gray-500">Mobile dev</p>
                 </div>
               </div>
               <p className="mt-8">
@@ -44,7 +39,7 @@ export const Testimonies = () => {
               </p>
             </div>
 
-            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white shadow-2xl shadow-gray-600/10">
               <div className="flex gap-4">
                 <img
                   alt="user avatar"
@@ -55,12 +50,10 @@ export const Testimonies = () => {
                   width="200"
                 />
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+                  <h6 className="text-lg font-medium text-gray-700">
                     Jane Smith
                   </h6>
-                  <p className="text-sm text-gray-500 dark:text-gray-300">
-                    Marketing
-                  </p>
+                  <p className="text-sm text-gray-500">Marketing</p>
                 </div>
               </div>
               <p className="mt-8">
@@ -71,7 +64,7 @@ export const Testimonies = () => {
               </p>
             </div>
 
-            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white shadow-2xl shadow-gray-600/10">
               <div className="flex gap-4">
                 <img
                   alt="user avatar"
@@ -82,12 +75,10 @@ export const Testimonies = () => {
                   width="200"
                 />
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+                  <h6 className="text-lg font-medium text-gray-700">
                     Yanick Yu
                   </h6>
-                  <p className="text-sm text-gray-500 dark:text-gray-300">
-                    AI Engineer
-                  </p>
+                  <p className="text-sm text-gray-500">AI Engineer</p>
                 </div>
               </div>
               <p className="mt-8">
@@ -100,7 +91,7 @@ export const Testimonies = () => {
               </p>
             </div>
 
-            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white shadow-2xl shadow-gray-600/10">
               <div className="flex gap-4">
                 <img
                   alt="user avatar"
@@ -111,12 +102,10 @@ export const Testimonies = () => {
                   width="200"
                 />
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+                  <h6 className="text-lg font-medium text-gray-700">
                     Joe Thompson
                   </h6>
-                  <p className="text-sm text-gray-500 dark:text-gray-300">
-                    DevOps Intern
-                  </p>
+                  <p className="text-sm text-gray-500">DevOps Intern</p>
                 </div>
               </div>
               <p className="mt-8">
@@ -128,7 +117,7 @@ export const Testimonies = () => {
               </p>
             </div>
 
-            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white shadow-2xl shadow-gray-600/10">
               <div className="flex gap-4">
                 <img
                   alt="user avatar"
@@ -139,12 +128,10 @@ export const Testimonies = () => {
                   width="200"
                 />
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+                  <h6 className="text-lg font-medium text-gray-700">
                     Andy Williams
                   </h6>
-                  <p className="text-sm text-gray-500 dark:text-gray-300">
-                    Brand Manager
-                  </p>
+                  <p className="text-sm text-gray-500">Brand Manager</p>
                 </div>
               </div>
               <p className="mt-8">
@@ -157,7 +144,7 @@ export const Testimonies = () => {
               </p>
             </div>
 
-            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+            <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white shadow-2xl shadow-gray-600/10">
               <div className="flex gap-4">
                 <img
                   alt="user avatar"
@@ -168,12 +155,10 @@ export const Testimonies = () => {
                   width="400"
                 />
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+                  <h6 className="text-lg font-medium text-gray-700">
                     Yanndy Pratt
                   </h6>
-                  <p className="text-sm text-gray-500 dark:text-gray-300">
-                    UX Engineer
-                  </p>
+                  <p className="text-sm text-gray-500">UX Engineer</p>
                 </div>
               </div>
               <p className="mt-8">
