@@ -15,6 +15,6 @@ module.exports = {
       },
     },
   },
-  darkMode: ["class", '[data-mode="light"]'],
+  darkMode: ["class", "&:not(.light *)"],
   plugins: [nextui()],
 };
