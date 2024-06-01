@@ -4,7 +4,7 @@ import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
 export const Faq = () => {
   return (
-    <section className="mt-40">
+    <section className="mt-40" id="faq">
       <div className="mb-10 space-y-4">
         <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
           Unlock Your&nbsp;
