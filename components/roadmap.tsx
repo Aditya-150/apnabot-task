@@ -12,10 +12,10 @@ export const Roadmap = () => {
               <span className="bg-gradient-to-b from-[#FF72E1] to-[#F54C7A] inline-block text-transparent bg-clip-text">
                 Perfect Resume
               </span>
-              &nbsp;In 3 Easy Steps
+              &nbsp;In 4 Easy Steps
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">
-              Create your own blog with us and get your dream job with just 3
+              Create your own blog with us and get your dream job with just 4
               easy steps
             </p>
           </div>
