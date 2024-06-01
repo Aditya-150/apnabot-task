@@ -1,8 +1,8 @@
-# Next.js & NextUI Template
+# APNABOT TASK SUBMISSION
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+## Description
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+The task was to re-create a better home page for the website: - [iloveresume](https://iloveresume.com/)
 
 ## Technologies Used
 
@@ -14,28 +14,28 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
-## How to Use
+## Challenges Faced
 
-### Use the template with create-next-app
+1. **User Experience (UX) Design**: Balancing aesthetics and functionality, ensuring ease of navigation across devices.
 
-To create a new project based on this template using `create-next-app`, run the following command:
+2. **Content Strategy**: Deciding on concise, engaging content while maintaining relevance to the target audience.
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
+3. **Brand Consistency**: Reflecting brand identity while incorporating updates to messaging and design.
+
+4. **Performance Optimization**: Ensuring fast load times and compatibility across devices while maintaining visual appeal.
+
+## How to Contribute
 
 ### Install dependencies
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
 ```bash
-npm install
+pnpm install
 ```
 
 ### Run the development server
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ### Setup pnpm (optional)
@@ -47,7 +47,3 @@ public-hoist-pattern[]=*@nextui-org/*
 ```
 
 After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).

@@ -55,7 +55,7 @@ export const Navbar = () => {
             as={Link}
             className="text-sm text-white bg-danger font-semibold"
             endContent={<RightArrowIcon className="text-white" />}
-            href={siteConfig.links.sponsor}
+            href="/#faq"
             variant="flat"
           >
             Get Started
