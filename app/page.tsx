@@ -53,7 +53,10 @@ export default function Home() {
   return (
     <>
       <ScrollAnimationWrapper>
-        <motion.section className="flex flex-row justify-between items-center w-full">
+        <motion.section
+          className="flex flex-row justify-between items-center w-full"
+          id="#"
+        >
           <div className="flex flex-col items-center sm:items-start justify-center gap-4 py-8 md:py-10">
             <div className="inline-block max-w-lg text-center sm:text-left justify-center sm:justify-start">
               <h1 className={title()}>

@@ -117,7 +117,7 @@ export default function RootLayout({
             <div className="fixed right-5 bottom-5 z-40">
               <Link
                 className="inline-block rounded-full bg-danger text-white shadow transition hover:shadow-md p-4 hover:shadow-danger-200"
-                href="/"
+                href="/#"
               >
                 <span className="sr-only">Back to top</span>
 
